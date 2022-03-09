@@ -1,0 +1,11 @@
+.dialogues {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mesBtn {
+    outline: none;
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+}

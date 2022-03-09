@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        "h h"
+        "nb c";
+    grid-gap: 10px;
+    grid-template-columns: 2fr 10fr;
+}
+
+.container > div {
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+.header {
+    grid-area: h;
+}
+
+.navbar {
+    grid-area: nb;
+}
+
+.content {
+    grid-area: c;
+}
